@@ -17,4 +17,4 @@ Route::get('/profil', function () {
 Route::resource('/fakultas', FakultasController::class);
 Route::resource('/prodi', ProdiController::class);  
 Route::resource('/mahasiswa', MahasiswaController::class);
-Route::get('/dashboard',[DashboardController::class,'index']);
+Route::get('/Dashboard', [DashboardController::class, 'index']);

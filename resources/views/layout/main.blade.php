@@ -281,7 +281,7 @@
               data-accordion="false"
             >
               <li class="nav-item">
-                <a class='nav-link' href='{{ url('Dashboard') }}'>
+                <a class='nav-link' href='{{ url('dashboard') }}'>
                   <i class="nav-icon bi bi-palette"></i>
                   <p>Dashboard</p>
                 </a>
