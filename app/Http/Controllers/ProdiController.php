@@ -68,7 +68,13 @@ class ProdiController extends Controller
      */
     public function update(Request $request, Prodi $prodi)
     {
-        //
+        $input = $request->validate([
+            'nama' => 'required',
+            'singkatan' => 'required|max:5', 
+            'kaprodi' => 'required',
+            'sekretaris' => 'required',
+            'fakultas_id' => 'required',
+        ]);
     }
 
     /**
